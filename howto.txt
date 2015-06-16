@@ -1,0 +1,2 @@
+C - clone -> in beamer
+P - presenter mode -> Kommentare
