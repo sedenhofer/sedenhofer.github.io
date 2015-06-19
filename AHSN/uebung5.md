@@ -33,7 +33,6 @@ Sommersemester 2015
  - Wenn ein Knoten ein RTS empfängt, verzögert er das Versenden von eigenen Paketen bis zu dem Zeitpunkt, zu dem das zugehörigen CTS empfangen werden sollte.
 	
 Löst dieses Protokoll das *hidden terminal problem*? (Begründen Sie ihre Antwort!)
-
 Löst dieses Protokoll das *exposed terminal problem*? (Begründen Sie ihre Antwort!)
 
 
