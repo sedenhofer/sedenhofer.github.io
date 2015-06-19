@@ -35,25 +35,71 @@ Kontakt: Prof. Jörg Hähner ([joerg.haehner@informatik.uni-augsburg.de](mailto:
 
 6. Übungsblatt - Aufgabe 1
 ==========================
-...
 
+**Routingmetriken**
 
+Abbildung 1 stellt ein drahtloses Sensornetzwerk mit einer maximalen Sendereichweite von 300m dar. Nun möchte Knoten *A* an Knoten *D* senden. Welche Route wählt Knoten *A* jeweils, wenn folgende Routingmetriken
+angewendet werden:
+
+1. Shortest Path First (SPF)
+2. SPF(*t*) mit
+ - *t* = 70%
+ - *t* = 90%
+3. Success Rate (SR)
+4. Expected Transmission Count (ETX)
+
+Begründen Sie ihre Wahl jeweils rechnerisch. *p* gibt die Wahrscheinlichkeit der erfolgreichen Übertragung an,der Wert in Meter den Realabstand zwischen den Knoten.
+
+---
+
+6. Übungsblatt - Aufgabe 1
+==========================
+**Routingmetriken** (ctd.)
+![test](assets/sensornetzwerkUebung6A1.png)
+Abbildung 1: Drahtloses Sensornetzwerk mit Wahrscheinlichkeit p und Realabstand.
 
 ---
 
 5. Übungsblatt - Aufgabe 2
 ==========================
 
-...
+**Zeitsynchronisierung**
 
+Beantworten Sie die folgenden Fragen ausführlich und in eigenen Worten.
+
+1. Was ist ein synchrones System?
+2. Wie unterscheiden sich interne und externe Synchronisation?
+3. Gegeben sei ein WSN bestehend aus zwei Sensorknoten x und y, die das selbe Ereignis detektieren. Nach der Initialisierung von Sensorknoten x detektiert er:
+
+ - ein Synchronisationssignal bei *t* = 2; 4s
+ - ein Ereignis bei *t* = 2; 5s
+    
+ Nach der Initialisierung von Sensorknoten *y* detektiert er:
+
+   - ein Synchronisationssignal bei *t* = 1; 9s
+   - ein Ereignis bei *t* = 2; 1s
+    
+
+
+---
+5. Übungsblatt - Aufgabe 2
+==========================
+
+**Zeitsynchronisierung** (ctd.)
+
+Danach informiert Knoten *y* Knoten *x* über die Zeit, an der er das erste Ereignis detektiert hat. Gehen Sie davon aus, dass alle Synchronisationssignale von derselben globalen Quelle kommen und beide Knoten gleich weit von der Quelle entfernt sind.
+
+Welcher Knoten detektiert das Ereignis zuerst?
+
+Wie weit liegen die Detektionen tatsächlich auseinander?
 
 ---
 
 
-5. Übungsblatt
+6. Übungsblatt
 ==============
 
-- Abgabe bis xx.xx.2015
+- Abgabe bis 28.06.2015
 - Abgabe per e-Mail an [sarah.edenhofer@informatik.uni-augsburg.de](mailto:sarah.edenhofer@informatik.uni-augsburg.de "sarah.edenhofer@informatik.uni-augsburg.de")
 - Abzugeben als: 
   **Foliensatz als pdf**, der als Präsentation der Ergebnisse genutzt werden kann
